@@ -1,13 +1,20 @@
 using DevEvents.API.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace DevEvents.API.Persistence
 {
-    public class EventsDbContext
+    public class EventsDbContext : DbContext
     {
-        public EventsDbContext()
+        public EventsDbContext(DbContextOptions<EventsDbContext> options) : base(options)
         {
-            Events = new List<Event>();
         }
-        public List<Event> Events { get; set; }
+
+        public DbSet<Event> Events { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Event>()
+                .HasKey(e => e.Id);
+        }
     }
 }

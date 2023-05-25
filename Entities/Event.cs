@@ -2,9 +2,8 @@ namespace DevEvents.API.Entities
 {
     public class Event
     {
-        public Event(int id, string title, string description, string organization, DateTime initialDate, DateTime finalDate)
+        public Event(string title, string description, string organization, DateTime initialDate, DateTime finalDate)
         {
-            Id = id;
             Title = title;
             Description = description;
             Organization = organization;
@@ -18,11 +17,12 @@ namespace DevEvents.API.Entities
         public string Title { get; set; }
         public string Description { get; set; }
         public string Organization { get; set; }
-        public DateTime InitialDate{ get; set; }
+        public DateTime InitialDate { get; set; }
         public DateTime FinalDate { get; set; }
         public DateTime CreationDate { get; set; }
 
-        public void Update(string title, string description, DateTime initialDate, DateTime finalDate){
+        public void Update(string title, string description, DateTime initialDate, DateTime finalDate)
+        {
             Title = title;
             Description = description;
             InitialDate = initialDate;

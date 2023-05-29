@@ -35,8 +35,23 @@ namespace DevEvents.API.Controllers
             return Ok(events);
         }
 
-        // POST /api/events
+        /// <summary>
+        /// Cadastro de Evento
+        /// </summary>
+        /// <remarks>
+        /// {
+        ///     "title": "Titulo da aplicação",
+        ///     "description": "Descrição da aplicação",
+        ///     "organization": "teste",
+        ///     "initialDate": "2023-05-29T20:20:00.000Z",
+        ///     "finalDate": "2023-05-29T20:20:00.000Z",
+        /// }
+        /// </remarks>
+        /// <param name="events">Dados do Evento</param>
+        /// <returns>Evento recém-criado</returns>
+        /// <response code="201">Sucesso</response>
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         public IActionResult Post(Event events)
         {
             _context.Events.Add(events);

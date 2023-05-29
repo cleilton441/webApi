@@ -3904,24 +3904,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\francisco.brigido\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Cleilton\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\francisco.brigido\\Desktop\\Projetos\\webApi\\DevEvents.API.csproj",
+      "projectUniqueName": "C:\\Users\\Cleilton\\Desktop\\Projetos\\WebApi\\DevEvents.API\\DevEvents.API.csproj",
       "projectName": "DevEvents.API",
-      "projectPath": "C:\\Users\\francisco.brigido\\Desktop\\Projetos\\webApi\\DevEvents.API.csproj",
-      "packagesPath": "C:\\Users\\francisco.brigido\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\francisco.brigido\\Desktop\\Projetos\\webApi\\obj\\",
+      "projectPath": "C:\\Users\\Cleilton\\Desktop\\Projetos\\WebApi\\DevEvents.API\\DevEvents.API.csproj",
+      "packagesPath": "C:\\Users\\Cleilton\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cleilton\\Desktop\\Projetos\\WebApi\\DevEvents.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\francisco.brigido\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Cleilton\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3929,7 +3924,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3990,7 +3985,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
